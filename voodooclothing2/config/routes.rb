@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'main/homepage' to: 'main#homepage', as: 'main'
+  get 'main/homepage', to: 'main#homepage', as: 'main'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
