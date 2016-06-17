@@ -1,9 +1,19 @@
 
-<p>
-Welcome page with gorilla scratching his brain
-</p>
+<div class="container">
+  <div class="section">
+    <div class="section-content welcome-backround">
+      <div class="welcome-header">
+        <%= link_to "Click to experience the voodoo experiecne", main_path %>
+      </div>
+    </div>
+  </div>
 
-
-<p>
-  THIS <%= link_to "Monkey Brian", main_path %> links to the main page
-</p>
+  <div class="section">
+    <div class="section-content monkey">
+      <%= image_tag("1.png", id: "img1") %>
+      <%= image_tag("2.png", id: "img2") %>
+      <%= image_tag("3.png", id: "img3") %>
+      <%= image_tag("4.png", id: "img4") %>
+    </div>
+  </div>
+</div>

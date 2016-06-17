@@ -1,57 +1,24 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.top{
-  background-color: #ee4b3e;
-  padding: 50px 0px;
-}
 
-.heading {
-  padding: 200px 0px;
-  color: #606060;
-  font-size: 100px;
-  font-family: Avenir;
-  font-weight: bold;
-}
 
-.center{
+.welcome-header{
   text-align: center;
+  font-family: avenir;
+  font-size: 25px;
+  color: white;
 }
 
-.header{
-  background-image: image-url("shirts.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.welcome-backround{
+  background-color: red;
 }
 
-.section{
-  position: relative;
-  overflow: hidden;
-}
-
-.section-content{
-  text-align: center;
-}
-
-.about-me{
-  background-color: #F5EACD;
-}
-
-.about-header{
-color: white;
-font-size: 50px;
-padding: 50px 0px;
-  font-weight: bold;
-}
-
-.type{
-  background-color: #ee4b3e;
-  padding-top: 20px;
-  padding-bottom: 100px;
-  font-size: 30px;
-}
-
-.type-text{
-font: Avener;
-color: white;
+.monkey{
+  img{
+    height: 200px;
+    display: none;
+    margin: auto;
+  }
 }
