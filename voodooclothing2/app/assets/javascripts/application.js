@@ -14,3 +14,20 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+$(document).ready(function(){$("body").hide().fadeIn(1000);});
+
+
+window.onload = function(){
+  window.displayImgCount = 0;
+  function cycleImage(){
+    if (displayImgCount !== 0) {
+      document.getElementById("img" + displayImgCount).style.display = "none";
+    }
+    displayImgCount = displayImgCount === 4 ? 1 : displayImgCount + 1;
+    document.getElementById("img" + displayImgCount).style.display = "block";
+    setTimeout(cycleImage, 200);
+  }
+  cycleImage();
+}
